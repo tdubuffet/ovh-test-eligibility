@@ -15,7 +15,7 @@ class OvhRequest
     {
         $proxy = new GimmeProxy();
 
-        $selectedProxy = $proxy->getRandomProxy();
+        $selectedProxy = $proxy->getProxy();
 
         if ($debug) {
             echo $selectedProxy . "\n";
